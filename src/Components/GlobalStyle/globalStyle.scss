@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+H1{
+    font-size: clamp(1.25rem, 1.0395rem + 1.1224vw, 1.9375rem);
+}
+H2{
+    font-size: clamp(1.125rem, 0.9145rem + 1.1224vw, 1.8125rem);
+}
+h3{
+   font-size:  clamp(1.25rem, 1.084vw + 0.762rem, 1.688rem);
+}
+

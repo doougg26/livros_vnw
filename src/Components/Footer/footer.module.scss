@@ -1,0 +1,48 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    .contacts{
+        background-color: #005695;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        padding-left: 50px;
+        padding-right: 50px;
+        ul{
+            width: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 12%;
+            li{
+                list-style: none;
+            }
+        }
+    }
+    .credits{
+      
+        background-color: #232020;
+        height: 10vh;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width:880px){
+    .footer 
+    {
+        .contacts{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+            ul{
+                width: 40vw;
+                margin: 0px;
+            }
+        }
+    }         
+}
