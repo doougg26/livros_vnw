@@ -17,19 +17,19 @@ export default function Home(){
                 </div>
                 <section className={S.boxCard}>
                     <article>
-                        <img src={Community} alt="" />
+                        <img src={Community} alt="icone comunidade" />
                         <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
                     </article>
                     <article>
-                        <img src={Reading} alt="" />
+                        <img src={Reading} alt="icone leitura" />
                         <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
                     </article>
                     <article>
-                        <img src={Transform} alt="" />
+                        <img src={Transform} alt="icone transformação" />
                         <p>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</p>
                     </article>
                     <article>
-                        <img src={Balance} alt="" />
+                        <img src={Balance} alt="icone balança" />
                         <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
                     </article>
                 </section>
