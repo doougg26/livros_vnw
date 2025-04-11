@@ -58,12 +58,19 @@ header{
         flex-direction: column;
         align-items: flex-start;
         .boxLogo{
-            width: 270px;
+            width: 90vw;
         }
         ul{
+             
+        }
+        .boxMenu{
+            width: 100vw;
+            ul{
             width: 90vw;
             justify-content: space-evenly;
             margin-left: 20px;
+                li{a{font-size: 15px;}}
+            }
         }
     }
     .boxInput{ 
