@@ -4,12 +4,14 @@
     align-items: center;
     justify-content: space-evenly;
     height: 70vh;
+    h2{
+        padding: 2rem;
+    }
     .container{
         width: 85vw;
-        height: 60vh;
         display: flex;
         justify-content: space-between;
-        padding-bottom: 100px;
+        padding: 2rem;
         article{
             border: 2px solid rgba(0, 86, 149);
             border-radius: 13px;
@@ -20,24 +22,31 @@
             justify-content: space-around;
             align-items: center;
             h3{
-                font-size: 18px;
+                text-transform: capitalize;
+                font-size: 16px;
+                text-align: center;
             }
             img{
                 height: 40%;
             }
+            p{
+                text-transform: capitalize;
+
+            }
+            
 
         }
     }
 }
 @media(max-width:880px){
     .main{
-        height: 100vh;
+        height: 100%;
         justify-content: space-around;
     .container{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 80vh;
+        gap: 15px;
         }
     }
 }
